@@ -1,0 +1,95 @@
+/** Guest Book **/
+
+body{
+	background-color: #F0AD4E;
+	/*padding-top: 70px;*/
+	/*min-height: 3000px;*/
+	overflow: hidden;}
+/** start guest**/
+.guest{
+    padding: 60px 0 60px 0;
+    background: #fff;
+}
+.guest h1{font-weight: bold;}
+.guest .container h1 small strong{color: #F0AD4E;}
+.guest .lead{color: #888;}
+/** end guest**/
+/** start our_guestbook**/
+.our_posts{
+    padding: 60px 0 60px 0;  
+}
+.our_posts .post .row{
+     padding: 60px 0 60px 0; 
+     background: #F2B968;
+    border: 2px solid #fffefe;
+-moz-border-radius: 15px;/*Firefox*/
+-webkit-border-radius: 15px;/*Safari, Chrome*/
+border-radius: 15px;
+}
+
+.our_posts h1{
+    color:#fff;
+    margin-bottom: 30px;
+}
+.person{padding: 20px;}
+.person img{margin-left: 20px;}
+.person h3{color:#fff;margin:-50px 0 10px 80px;}
+.person p{color:#f2f2f2;margin:0 0 10px 80px;}
+.person span{color: #ddd;margin-left:10px;}
+
+/** end our_guestbook **/
+
+/***********start contact us***********/
+
+.contact-us{
+	background: url("../images/closeup02.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 300px;
+}
+.contact-us h3{margin-bottom: 25px;}
+.contact-us .fields{
+	background: rgba(9,9,9,0.8);
+	min-height: 300px;
+	color: #DDD;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.contact-us p {margin-bottom: 40px;}
+.contact-us textarea{height: 108px;}
+.contact-us input[type='text'],
+.contact-us textarea{
+	background: rgba(82,78,78,0.4);
+	color:#fff;
+	border: none;
+}
+/***********end contact us***********/
+/******* start footer*******/
+.footer .copyright{
+background-color: #F0AD4E;
+	color: #fff;
+	padding:15px 0;
+	margin-top:30px;
+	font-size: 18px; 
+}
+/******* end footer*******/
+/******* start scroll up ***************/
+#scroll-top{
+	width:50px ;
+	height:40px;
+	color:#DDD;
+	background: #272727;
+	text-align: center;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 9999;
+	display: none;
+	cursor: pointer;
+}
+#scroll-top:hover{background: #444;}
+/******* end scroll up ***************/
+
